@@ -25,7 +25,7 @@
 					<ul>
 						<li><a href="#one" class="active">About Me</a></li>
 						<li><a href="#two">Things I am Interested in</a></li>
-						<li><a href="#three">Some Of My Articles</a></li>
+						<li><a href="#three">Selected Articles</a></li>
 						<li><a href="#four">Useful links</a></li>
 					</ul>
 				</nav>
@@ -48,15 +48,15 @@
 
 						<!-- One -->
 							<section id="one">
-								<div class="image main" data-position="center">
+								<!-- <div class="image main" data-position="center">
 									<img src="images/banner.jpg" alt="" />
-								</div>
+								</div> -->
 								<div class="container">
-									<header class="major">
-										<h2>About Me</h2>
+									<!-- <header class="major"> -->
+										<h3>About Me</h3>
 										<!-- <p>Just an incredibly simple responsive site<br />
 										template freebie by <a href="http://html5up.net">HTML5 UP</a>.</p> -->
-									</header>
+									<!-- </header> -->
 									<p>I am a Machine Learning practitioner who fouces on reinfrocement learning and its application in robotics, it is always amaze me how these algorrithms improves robotic perfoance far way more than conventional contorl methods, my goals is to work on improving RL for robotics so they can learn much diverse and complex skills</p>
 								</div>
 							</section>
@@ -66,13 +66,14 @@
 								<div class="container">
 									<h3>Things I am Interested in</h3>
 									<p>Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer non. Adipiscing cubilia elementum integer lorem ipsum dolor sit amet.</p>
+
 									<ul class="feature-icons">
-										<li class="icon solid fa-code">Write all the code</li>
-										<li class="icon solid fa-snowflake">Stack small boxes</li>
-										<li class="icon solid fa-book">Read books and stuff</li>
-										<li class="icon solid fa-coffee">Drink much coffee</li>
-										<li class="icon solid fa-bolt">Lightning bolt</li>
-										<li class="icon solid fa-users">Shadow clone technique</li>
+										<li class="icon solid fa-code">Deep Reinforcement Learning</li>
+										<li class="icon solid fa-robot">Robotics Learning</li>
+										<li class="icon solid fa-book">Philosophy</li>
+										<li class="icon solid fa-times">Abstract Algebra</li>
+										<!-- <li class="icon solid fa-bolt">Lightning bolt</li>
+										<li class="icon solid fa-users">Shadow clone technique</li> -->
 									</ul>
 								</div>
 							</section>
@@ -80,28 +81,29 @@
 						<!-- Three -->
 							<section id="three">
 								<div class="container">
-									<h3>A Few Accomplishments</h3>
-									<p>Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer non. Adipiscing cubilia elementum integer. Integer eu ante ornare amet commetus.</p>
+									<h3>Selected Articles</h3>
 									<div class="features">
 										<article>
 											<a href="#" class="image"><img src="images/pic01.jpg" alt="" /></a>
 											<div class="inner">
-												<h4>Possibly broke spacetime</h4>
+												<a href="#"><h4>Possibly broke spacetime</h4></a>
 												<p>Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer adipiscing ornare amet.</p>
 											</div>
 										</article>
 										<article>
-											<a href="#" class="image"><img src="images/pic02.jpg" alt="" /></a>
+											<a href="https://medium.com/analytics-vidhya/policy-gradients-and-reinforce-algorithms-efeb491c1e02" class="image"><img src="https://miro.medium.com/max/2400/1*ZsW0ESrK6eJ40AlR3XqUmA.png" alt="" /></a>
 											<div class="inner">
-												<h4>Terraformed a small moon</h4>
-												<p>Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer adipiscing ornare amet.</p>
+												<a href="https://medium.com/analytics-vidhya/policy-gradients-and-reinforce-algorithms-efeb491c1e02">
+													<h4>Policy Gradients and REINFORCE Algorithms</h4>
+												</a>
+												<p>This article explain the foundations of policy gradient methods, its advantages over value function methods, the derivation of the policy gradient, and the REINFORCE algorithm, which is the simplest policy gradient-based algorithm</p>
 											</div>
 										</article>
 										<article>
-											<a href="#" class="image"><img src="images/pic03.jpg" alt="" /></a>
+											<a href="https://fa44al.medium.com/baselines-for-policy-gradients-ebbf648d9bd6" class="image"><img src="https://miro.medium.com/max/700/1*TQnSR5aHzKCOmjjvMTm8vg.png" alt="" /></a>
 											<div class="inner">
-												<h4>Snapped dark matter in the wild</h4>
-												<p>Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer adipiscing ornare amet.</p>
+												<a href="https://fa44al.medium.com/baselines-for-policy-gradients-ebbf648d9bd6"><h4>Baselines for Policy Gradients</h4></a>
+												<p>Applying policy gradient naively is inefficient, because of its poor sample complexity and high variance, which result in slower learning, baselines can metogate this problem.</p>
 											</div>
 										</article>
 									</div>
@@ -111,22 +113,14 @@
 						<!-- Four -->
 							<section id="four">
 								<div class="container">
-									<h3>Contact Me</h3>
-									<p>Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer non. Adipiscing cubilia elementum integer. Integer eu ante ornare amet commetus.</p>
-									<form method="post" action="#">
-										<div class="row gtr-uniform">
-											<div class="col-6 col-12-xsmall"><input type="text" name="name" id="name" placeholder="Name" /></div>
-											<div class="col-6 col-12-xsmall"><input type="email" name="email" id="email" placeholder="Email" /></div>
-											<div class="col-12"><input type="text" name="subject" id="subject" placeholder="Subject" /></div>
-											<div class="col-12"><textarea name="message" id="message" placeholder="Message" rows="6"></textarea></div>
-											<div class="col-12">
-												<ul class="actions">
-													<li><input type="submit" class="primary" value="Send Message" /></li>
-													<li><input type="reset" value="Reset Form" /></li>
-												</ul>
-											</div>
-										</div>
-									</form>
+									<h3>Useful links</h3>
+									<ul>
+										<li>
+											If you want to start with machine learning and you do not have the
+											foundational math, Mathematics for Machine Learning specialization is a good start.
+											<a href="https://www.coursera.org/specializations/mathematics-machine-learning">https://www.coursera.org/specializations/mathematics-machine-learning</a>
+										</li>
+									</ul>
 								</div>
 							</section>
 
