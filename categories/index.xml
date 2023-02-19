@@ -1,10 +1,16 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on Faisal Blog</title>
-    <link>https://faisalahmedblog.github.io/categories/</link>
-    <description>Recent content in Categories on Faisal Blog</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://faisalahmedblog.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <title>Categories | Claudio Michaelis</title>
+    <link>https://michaelisc.github.io/categories/</link>
+      <atom:link href="https://michaelisc.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <description>Categories</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
+    <image>
+      <url>https://michaelisc.github.io/img/icon-192.png</url>
+      <title>Categories</title>
+      <link>https://michaelisc.github.io/categories/</link>
+    </image>
+    
   </channel>
 </rss>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>1 | Claudio Michaelis</title>
+    <link>https://michaelisc.github.io/publication_types/1/</link>
+      <atom:link href="https://michaelisc.github.io/publication_types/1/index.xml" rel="self" type="application/rss+xml" />
+    <description>1</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 01 Jun 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://michaelisc.github.io/img/icon-192.png</url>
+      <title>1</title>
+      <link>https://michaelisc.github.io/publication_types/1/</link>
+    </image>
+    
+    <item>
+      <title>Optimizing Rank-based Metrics with Blackbox Differentiation</title>
+      <link>https://michaelisc.github.io/publication/rolinek-2019-a/</link>
+      <pubDate>Mon, 01 Jun 2020 00:00:00 +0000</pubDate>
+      <guid>https://michaelisc.github.io/publication/rolinek-2019-a/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Task-driven hierarchical deep neural network models of the proprioceptive pathway</title>
+      <link>https://michaelisc.github.io/publication/sandbrink-2020-a/</link>
+      <pubDate>Wed, 06 May 2020 00:00:00 +0000</pubDate>
+      <guid>https://michaelisc.github.io/publication/sandbrink-2020-a/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Benchmarking Robustness in Object Detection: Autonomous Driving when Winter is Coming</title>
+      <link>https://michaelisc.github.io/publication/michaelis-2019-dragon/</link>
+      <pubDate>Mon, 01 Jul 2019 00:00:00 +0000</pubDate>
+      <guid>https://michaelisc.github.io/publication/michaelis-2019-dragon/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ImageNet-trained CNNs are biased towards texture; increasing shape bias improves accuracy and robustness</title>
+      <link>https://michaelisc.github.io/publication/geirhos-2019-a/</link>
+      <pubDate>Wed, 01 May 2019 00:00:00 +0000</pubDate>
+      <guid>https://michaelisc.github.io/publication/geirhos-2019-a/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>One-Shot Segmentation in Clutter</title>
+      <link>https://michaelisc.github.io/publication/michaelis-2018-a/</link>
+      <pubDate>Fri, 01 Jun 2018 00:00:00 +0000</pubDate>
+      <guid>https://michaelisc.github.io/publication/michaelis-2018-a/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

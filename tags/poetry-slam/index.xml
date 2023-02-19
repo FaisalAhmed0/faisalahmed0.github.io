@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>poetry-slam | Claudio Michaelis</title>
+    <link>https://michaelisc.github.io/tags/poetry-slam/</link>
+      <atom:link href="https://michaelisc.github.io/tags/poetry-slam/index.xml" rel="self" type="application/rss+xml" />
+    <description>poetry-slam</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 09 Aug 2020 00:00:00 +0200</lastBuildDate>
+    <image>
+      <url>https://michaelisc.github.io/img/icon-192.png</url>
+      <title>poetry-slam</title>
+      <link>https://michaelisc.github.io/tags/poetry-slam/</link>
+    </image>
+    
+    <item>
+      <title>BW-Slam 2015</title>
+      <link>https://michaelisc.github.io/project/bwslam2015/</link>
+      <pubDate>Sun, 09 Aug 2020 00:00:00 +0200</pubDate>
+      <guid>https://michaelisc.github.io/project/bwslam2015/</guid>
+      <description>&lt;p&gt;Together with &lt;a href=&#34;https://www.marvinsuckut.de/&#34;&gt;Marvin Suckut&lt;/a&gt; I organized the &lt;a href=&#34;bwslam15.de&#34;&gt;2015 Baden-Württemberg Poetry Slam Championship&lt;/a&gt; finals in Konstanz and Singen.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

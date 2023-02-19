@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Alexander Mathis | Claudio Michaelis</title>
+    <link>https://michaelisc.github.io/authors/alexander-mathis/</link>
+      <atom:link href="https://michaelisc.github.io/authors/alexander-mathis/index.xml" rel="self" type="application/rss+xml" />
+    <description>Alexander Mathis</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 06 May 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://michaelisc.github.io/img/icon-192.png</url>
+      <title>Alexander Mathis</title>
+      <link>https://michaelisc.github.io/authors/alexander-mathis/</link>
+    </image>
+    
+    <item>
+      <title>Task-driven hierarchical deep neural network models of the proprioceptive pathway</title>
+      <link>https://michaelisc.github.io/publication/sandbrink-2020-a/</link>
+      <pubDate>Wed, 06 May 2020 00:00:00 +0000</pubDate>
+      <guid>https://michaelisc.github.io/publication/sandbrink-2020-a/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

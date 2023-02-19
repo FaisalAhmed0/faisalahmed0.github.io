@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>object-detection | Claudio Michaelis</title>
+    <link>https://michaelisc.github.io/tags/object-detection/</link>
+      <atom:link href="https://michaelisc.github.io/tags/object-detection/index.xml" rel="self" type="application/rss+xml" />
+    <description>object-detection</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 09 Aug 2020 00:00:00 +0200</lastBuildDate>
+    <image>
+      <url>https://michaelisc.github.io/img/icon-192.png</url>
+      <title>object-detection</title>
+      <link>https://michaelisc.github.io/tags/object-detection/</link>
+    </image>
+    
+    <item>
+      <title>Searchwing</title>
+      <link>https://michaelisc.github.io/project/searchwing/</link>
+      <pubDate>Sun, 09 Aug 2020 00:00:00 +0200</pubDate>
+      <guid>https://michaelisc.github.io/project/searchwing/</guid>
+      <description>&lt;p&gt;About the project:&lt;/p&gt;
+&lt;p&gt;We are building a low cost drone specially designed to support Search And Rescue (SAR) missions on the sea.&lt;/p&gt;
+&lt;p&gt;At the moment the main usage scenario is to support the rescue missions in the mediterran sea: private rescue organisations like Sea-Watch e.V., Sea-Eye e.V. or ResQship e.V. conduct civil search and rescue operations. We support these operations with our autonomous aerial rescue drone that can be launched and operated from a search vessel.&lt;/p&gt;
+&lt;p&gt;My contribution:&lt;/p&gt;
+&lt;p&gt;I built the first version of the object detection algorithm and pipeline that is used to detect vessels in distress and will be used in the first missions.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

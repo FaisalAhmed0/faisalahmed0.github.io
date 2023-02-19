@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>2 | Claudio Michaelis</title>
+    <link>https://michaelisc.github.io/publication_types/2/</link>
+      <atom:link href="https://michaelisc.github.io/publication_types/2/index.xml" rel="self" type="application/rss+xml" />
+    <description>2</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 01 Apr 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://michaelisc.github.io/img/icon-192.png</url>
+      <title>2</title>
+      <link>https://michaelisc.github.io/publication_types/2/</link>
+    </image>
+    
+    <item>
+      <title>Shortcut Learning in Deep Neural Networks</title>
+      <link>https://michaelisc.github.io/publication/geirhos-2020-a/</link>
+      <pubDate>Wed, 01 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>https://michaelisc.github.io/publication/geirhos-2020-a/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>One-Shot Instance Segmentation</title>
+      <link>https://michaelisc.github.io/publication/michaelis-2018-b/</link>
+      <pubDate>Thu, 01 Nov 2018 00:00:00 +0000</pubDate>
+      <guid>https://michaelisc.github.io/publication/michaelis-2018-b/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>One-shot Texture Segmentation</title>
+      <link>https://michaelisc.github.io/publication/ustyuzhaninov-2018-a/</link>
+      <pubDate>Sun, 01 Jul 2018 00:00:00 +0000</pubDate>
+      <guid>https://michaelisc.github.io/publication/ustyuzhaninov-2018-a/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
