@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Projects | Claudio Michaelis</title>
-    <link>https://michaelisc.github.io/project/</link>
-      <atom:link href="https://michaelisc.github.io/project/index.xml" rel="self" type="application/rss+xml" />
+    <link> /project/</link>
+      <atom:link href=" /project/index.xml" rel="self" type="application/rss+xml" />
     <description>Projects</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 09 Aug 2020 00:00:00 +0200</lastBuildDate>
     <image>
-      <url>https://michaelisc.github.io/img/icon-192.png</url>
+      <url> /img/icon-192.png</url>
       <title>Projects</title>
-      <link>https://michaelisc.github.io/project/</link>
+      <link> /project/</link>
     </image>
     
     <item>
       <title>BW-Slam 2015</title>
-      <link>https://michaelisc.github.io/project/bwslam2015/</link>
+      <link> /project/bwslam2015/</link>
       <pubDate>Sun, 09 Aug 2020 00:00:00 +0200</pubDate>
-      <guid>https://michaelisc.github.io/project/bwslam2015/</guid>
+      <guid> /project/bwslam2015/</guid>
       <description>&lt;p&gt;Together with &lt;a href=&#34;https://www.marvinsuckut.de/&#34;&gt;Marvin Suckut&lt;/a&gt; I organized the &lt;a href=&#34;bwslam15.de&#34;&gt;2015 Baden-Württemberg Poetry Slam Championship&lt;/a&gt; finals in Konstanz and Singen.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Kulturticket Konstanz</title>
-      <link>https://michaelisc.github.io/project/kulturticket/</link>
+      <link> /project/kulturticket/</link>
       <pubDate>Sun, 09 Aug 2020 00:00:00 +0200</pubDate>
-      <guid>https://michaelisc.github.io/project/kulturticket/</guid>
+      <guid> /project/kulturticket/</guid>
       <description>&lt;p&gt;The &lt;a href=&#34;https://www.facebook.com/kulturticketkonstanz&#34;&gt;Kulturticket Konstanz&lt;/a&gt; allows all students to enter the theatre and philharmonic concerts without charge. This can be realized by paying a small fee of 1.30 EUR per student per semester to both institutions and includes any event including premieres. Students simply have to show up at the cashier an hour before the event and will get the best remaining tickets for free. Additionally the Zebra Kino, KULA and many other places regularly offer reduced prices or free entries subsidized through the ticket.&lt;/p&gt;
 &lt;p&gt;Making this ticket a reality was probably the highlight of my carrer as a student representative. For the price of 2 beers over a whole bachelors students can visit concerts and plays for free. I myself used this offering a lot and I hope it will give first semesters a feeling of being welome in the city.&lt;/p&gt;
 </description>
@@ -33,9 +33,9 @@
     
     <item>
       <title>Searchwing</title>
-      <link>https://michaelisc.github.io/project/searchwing/</link>
+      <link> /project/searchwing/</link>
       <pubDate>Sun, 09 Aug 2020 00:00:00 +0200</pubDate>
-      <guid>https://michaelisc.github.io/project/searchwing/</guid>
+      <guid> /project/searchwing/</guid>
       <description>&lt;p&gt;About the project:&lt;/p&gt;
 &lt;p&gt;We are building a low cost drone specially designed to support Search And Rescue (SAR) missions on the sea.&lt;/p&gt;
 &lt;p&gt;At the moment the main usage scenario is to support the rescue missions in the mediterran sea: private rescue organisations like Sea-Watch e.V., Sea-Eye e.V. or ResQship e.V. conduct civil search and rescue operations. We support these operations with our autonomous aerial rescue drone that can be launched and operated from a search vessel.&lt;/p&gt;

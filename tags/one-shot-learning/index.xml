@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>one-shot learning | Claudio Michaelis</title>
-    <link>https://michaelisc.github.io/tags/one-shot-learning/</link>
-      <atom:link href="https://michaelisc.github.io/tags/one-shot-learning/index.xml" rel="self" type="application/rss+xml" />
+    <link> /tags/one-shot-learning/</link>
+      <atom:link href=" /tags/one-shot-learning/index.xml" rel="self" type="application/rss+xml" />
     <description>one-shot learning</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 01 Jun 2018 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://michaelisc.github.io/img/icon-192.png</url>
+      <url> /img/icon-192.png</url>
       <title>one-shot learning</title>
-      <link>https://michaelisc.github.io/tags/one-shot-learning/</link>
+      <link> /tags/one-shot-learning/</link>
     </image>
     
     <item>
       <title>One-Shot Segmentation in Clutter</title>
-      <link>https://michaelisc.github.io/publication/michaelis-2018-a/</link>
+      <link> /publication/michaelis-2018-a/</link>
       <pubDate>Fri, 01 Jun 2018 00:00:00 +0000</pubDate>
-      <guid>https://michaelisc.github.io/publication/michaelis-2018-a/</guid>
+      <guid> /publication/michaelis-2018-a/</guid>
       <description></description>
     </item>
     
