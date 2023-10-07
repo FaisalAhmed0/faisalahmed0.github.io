@@ -1,3 +1,6 @@
+---
+layout: default
+---
 This document contains the basic GCP command I need in order to log in from my machine 
 
 Copying files to the VM from the local machine
