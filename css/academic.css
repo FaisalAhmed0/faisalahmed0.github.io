@@ -11944,7 +11944,7 @@ ul.share li:hover i {
 
 .home-section {
     background-color: #fff;
-    padding: 110px 0 110px 0;
+    padding: 110px 0 0 0;
     animation: intro 0.3s both;
     animation-delay: 0.15s
 }
@@ -11984,7 +11984,7 @@ ul.share li:hover i {
 }
 
 .home-section:nth-of-type(even) {
-    background-color: #f7f7f7
+    background-color: #fff
 }
 
 .dark .home-section {
