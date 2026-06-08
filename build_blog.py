@@ -100,22 +100,23 @@ def update_blog_listing(posts):
             description = post.get('description', '')
             
             blog_list_html += f'''
-          <div class="view-list-item" style="margin-bottom: 1.5rem; padding-bottom: 1.5rem; border-bottom: 1px solid #e0e0e0;">
-            <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
-            <a href="/blog/{slug}/" style="font-size: 1.1rem; font-weight: 500;">{title}</a>
-            <div class="article-metadata" style="margin-top: 0.5rem;">
+          <div class="blog-list-item">
+            <a class="blog-title" href="/blog/{slug}/">{title}</a>
+            <div class="article-metadata">
               <span class="article-date">{date}</span>
             </div>
-            {f'<p style="margin-top: 0.5rem; color: #666;">{description}</p>' if description else ''}
+            {f'<p class="blog-excerpt">{description}</p>' if description else ''}
           </div>
 '''
     else:
         blog_list_html = '<p>No blog posts yet. Check back soon!</p>'
     
-    # Replace the blog list section
+    # Replace the blog list section. The list region is delimited by the
+    # "<!-- /blog-list -->" marker so item-level </div> tags don't terminate
+    # the match prematurely.
     listing_html = re.sub(
-        r'<div id="blog-list">.*?</div>',
-        f'<div id="blog-list">{blog_list_html}\n          </div>',
+        r'<div id="blog-list">.*?</div>\s*<!-- /blog-list -->',
+        f'<div id="blog-list">{blog_list_html}          </div>\n          <!-- /blog-list -->',
         listing_html,
         flags=re.DOTALL
     )

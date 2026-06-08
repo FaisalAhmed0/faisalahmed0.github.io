@@ -1,0 +1,352 @@
+/* ==========================================================================
+   custom.css — visual refresh layer on top of academic.css
+   Loaded after academic.css; only overrides, no framework code.
+   ========================================================================== */
+
+:root {
+  --primary: #2563eb;
+  --primary-dark: #1d4ed8;
+  --text-primary: #1f2937;
+  --text-muted: #6b7280;
+  --border-color: #e5e7eb;
+  --section-bg: #ffffff;
+  --section-alt-bg: #f9fafb;
+}
+
+/* --------------------------------------------------------------------------
+   Typography
+   -------------------------------------------------------------------------- */
+
+html {
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: 14px;
+  color: var(--text-primary);
+  line-height: 1.7;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@media screen and (min-width: 58em) {
+  html {
+    font-size: 16px;
+  }
+}
+
+body {
+  font-family: inherit;
+  color: var(--text-primary);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  color: var(--text-primary);
+  letter-spacing: -0.01em;
+}
+
+a {
+  color: var(--primary);
+}
+
+a:hover {
+  color: var(--primary-dark);
+}
+
+/* --------------------------------------------------------------------------
+   Navbar
+   -------------------------------------------------------------------------- */
+
+.navbar {
+  background: rgba(255, 255, 255, 0.92);
+  -webkit-backdrop-filter: saturate(180%) blur(8px);
+  backdrop-filter: saturate(180%) blur(8px);
+  box-shadow: none;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.navbar-brand {
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  color: var(--text-primary);
+}
+
+#navbar-main .main-menu-item ul li .nav-link {
+  color: var(--text-muted);
+  font-weight: 500;
+  position: relative;
+  transition: color 0.15s ease;
+}
+
+#navbar-main .main-menu-item ul li .nav-link:hover {
+  color: var(--text-primary);
+}
+
+#navbar-main .main-menu-item ul li .nav-link.active {
+  color: var(--primary);
+}
+
+#navbar-main .main-menu-item ul li .nav-link.active::after {
+  content: "";
+  position: absolute;
+  left: 0.75rem;
+  right: 0.75rem;
+  bottom: -2px;
+  height: 2px;
+  background: var(--primary);
+  border-radius: 2px;
+}
+
+/* --------------------------------------------------------------------------
+   Sections
+   -------------------------------------------------------------------------- */
+
+.home-section {
+  background-color: var(--section-bg);
+  padding: 72px 0;
+}
+
+.home-section:first-of-type {
+  padding-top: 56px;
+}
+
+#publications {
+  background-color: var(--section-alt-bg);
+}
+
+@media screen and (max-width: 768px) {
+  .home-section {
+    padding: 48px 0;
+  }
+
+  .home-section:first-of-type {
+    padding-top: 32px;
+  }
+}
+
+.section-heading h1 {
+  font-size: 1.6rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  margin: 0 0 10px 0;
+}
+
+/* --------------------------------------------------------------------------
+   Profile sidebar
+   -------------------------------------------------------------------------- */
+
+#profile {
+  text-align: center;
+}
+
+.portrait {
+  width: 180px;
+  height: 180px;
+  border: 4px solid #fff;
+  box-shadow: 0 0 0 1px var(--border-color), 0 8px 24px rgba(0, 0, 0, 0.08);
+}
+
+/* CSS-only fallback avatar shown when no image asset exists */
+.portrait-fallback {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 180px;
+  height: 180px;
+  margin: 0 auto;
+  border-radius: 50%;
+  background: linear-gradient(135deg, var(--primary), var(--primary-dark));
+  color: #fff;
+  font-size: 4rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  box-shadow: 0 0 0 1px var(--border-color), 0 8px 24px rgba(0, 0, 0, 0.08);
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+.portrait-title h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  margin: 18px 0 4px 0;
+}
+
+.portrait-role {
+  font-size: 0.9rem;
+  color: var(--text-muted);
+  margin: 0 0 4px 0;
+}
+
+#profile .network-icon {
+  margin-top: 20px;
+}
+
+.network-icon li:hover {
+  opacity: 1;
+}
+
+.network-icon li a {
+  color: var(--text-muted);
+  transition: color 0.15s ease;
+}
+
+.network-icon li a:hover {
+  color: var(--primary);
+}
+
+.big-icon {
+  font-size: 1.5rem;
+}
+
+/* --------------------------------------------------------------------------
+   About content
+   -------------------------------------------------------------------------- */
+
+#about h3 {
+  font-size: 1.05rem;
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+}
+
+ul.ul-interests li {
+  font-size: 0.95rem;
+  margin-bottom: 0.25rem;
+}
+
+/* Experience as a clean timeline with a left accent border */
+ul.ul-edu {
+  border-left: 2px solid var(--border-color);
+  margin-left: 0.25rem;
+  padding-left: 1.1rem;
+}
+
+ul.ul-edu li {
+  padding: 0 0 1rem 0;
+}
+
+ul.ul-edu li:last-child {
+  padding-bottom: 0;
+}
+
+ul.ul-edu li .fa-li {
+  color: var(--primary);
+}
+
+ul.ul-edu li .description p.course {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+ul.ul-edu li .description p.institution {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+}
+
+/* --------------------------------------------------------------------------
+   Publications
+   -------------------------------------------------------------------------- */
+
+.view-list-item {
+  margin-bottom: 1.5rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.view-list-item:last-child {
+  border-bottom: none;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.pub-icon {
+  color: var(--primary);
+  opacity: 0.8;
+}
+
+.pub-title {
+  display: block;
+  font-size: 1.05rem;
+  font-weight: 600;
+  line-height: 1.4;
+  color: var(--text-primary);
+}
+
+.pub-title:hover {
+  color: var(--primary);
+}
+
+.pub-venue {
+  font-size: 0.9rem;
+  color: var(--text-muted);
+  margin-top: 0.25rem;
+}
+
+.pub-authors {
+  font-size: 0.9rem;
+  color: var(--text-primary);
+  margin-top: 0.25rem;
+}
+
+/* --------------------------------------------------------------------------
+   Blog
+   -------------------------------------------------------------------------- */
+
+.blog-list-item {
+  margin-bottom: 1.5rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.blog-list-item:last-child {
+  border-bottom: none;
+}
+
+.blog-title {
+  display: block;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+.blog-title:hover {
+  color: var(--primary);
+}
+
+.blog-list-item .article-metadata {
+  margin-top: 0.35rem;
+}
+
+.blog-excerpt {
+  margin-top: 0.4rem;
+  color: var(--text-muted);
+}
+
+.article-footer-nav {
+  margin-top: 2.5rem;
+  padding-top: 1.25rem;
+  border-top: 1px solid var(--border-color);
+}
+
+/* --------------------------------------------------------------------------
+   Footer (minimal)
+   -------------------------------------------------------------------------- */
+
+footer {
+  margin-top: 4rem;
+  padding: 1.5rem 0;
+  border-top: 1px solid var(--border-color);
+}
+
+.site-footer p {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  margin-bottom: 0;
+}
+
+footer a.back-to-top i {
+  color: var(--text-muted);
+}
+
+footer a.back-to-top:hover i {
+  color: var(--primary);
+}
