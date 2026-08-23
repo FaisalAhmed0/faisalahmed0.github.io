@@ -11,6 +11,12 @@
   --border-color: #e5e7eb;
   --section-bg: #ffffff;
   --section-alt-bg: #f9fafb;
+  --surface-raised: #ffffff;
+  --code-bg: #f3f4f6;
+}
+
+html {
+  color-scheme: light;
 }
 
 /* --------------------------------------------------------------------------
@@ -349,4 +355,92 @@ footer a.back-to-top i {
 
 footer a.back-to-top:hover i {
   color: var(--primary);
+}
+
+/* --------------------------------------------------------------------------
+   Dark mode
+   -------------------------------------------------------------------------- */
+
+body,
+.navbar,
+.home-section,
+footer {
+  transition: background-color 0.2s ease, color 0.2s ease, border-color 0.2s ease;
+}
+
+body.dark {
+  --primary: #60a5fa;
+  --primary-dark: #93c5fd;
+  --text-primary: #e5e7eb;
+  --text-muted: #a7b0bf;
+  --border-color: #374151;
+  --section-bg: #111827;
+  --section-alt-bg: #172033;
+  --surface-raised: #1f2937;
+  --code-bg: #0f172a;
+  color-scheme: dark;
+  background-color: var(--section-bg);
+  color: var(--text-primary);
+}
+
+body.dark .navbar {
+  background: rgba(17, 24, 39, 0.92);
+  border-bottom-color: var(--border-color);
+}
+
+body.dark .navbar-brand,
+body.dark #navbar-main .main-menu-item ul li .nav-link:hover,
+body.dark h1,
+body.dark h2,
+body.dark h3,
+body.dark h4,
+body.dark h5,
+body.dark h6,
+body.dark .pub-title,
+body.dark .blog-title,
+body.dark .pub-authors,
+body.dark .portrait-title h2 {
+  color: var(--text-primary);
+}
+
+body.dark .portrait {
+  border-color: var(--section-bg);
+}
+
+body.dark .btn-outline-primary {
+  color: var(--primary);
+  border-color: var(--primary);
+}
+
+body.dark .btn-outline-primary:hover {
+  color: #111827;
+  background-color: var(--primary);
+  border-color: var(--primary);
+}
+
+body.dark input,
+body.dark textarea,
+body.dark select,
+body.dark .form-control {
+  color: var(--text-primary);
+  background-color: var(--surface-raised);
+  border-color: var(--border-color);
+}
+
+body.dark pre,
+body.dark code,
+body.dark .highlight {
+  color: #dbeafe;
+  background-color: var(--code-bg);
+}
+
+body.dark .article-style blockquote {
+  border-left-color: var(--border-color);
+  color: var(--text-muted);
+}
+
+@media (prefers-color-scheme: dark) {
+  html:not(.theme-light) {
+    color-scheme: dark;
+  }
 }
