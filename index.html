@@ -143,29 +143,23 @@
           </div>
         </div>
         <div class="col-12 col-lg-8">
-          <p>I am a research M.Sc student at <a href="https://mila.quebec/en/">Mila-Quebec AI Institute</a> and <a
+          <p>I am a first year PhD student at <a href="https://mila.quebec/en/">Mila-Quebec AI Institute</a> and <a
               href="https://diro.umontreal.ca/accueil/">Université de Montréal</a> supervised by <a
               href="https://neo-x.github.io/">Glen Berseth</a>.</p>
-          <p>I obtained my first master from the <a href="https://aimsammi.org/">african master of machine intelligence
+          <p>I recently completed my second Msc, also at Mila and UdeM, and obtained my first Msc at the <a href="https://aimsammi.org/">african master of machine intelligence
               program</a> and I was supervised by <a href="https://ben-eysenbach.github.io/">Ben Eysenbach</a> I spent
             sometime at <a href="https://uni-tuebingen.de/en/">the University of Tuebingen</a> and <a
               href="https://is.mpg.de/">the Max Planck Institute For Intelligent Systems.</a> as part of the <a
               href="https://uni-tuebingen.de/en/research/core-research/cluster-of-excellence-machine-learning/research/research/internationalization/fellowship-program-data-science-ai/">AIMS-Tübingen
               Fellowship Program Data Science</a> & AI where I was fortunate to be mentored by <a
-              href="https://twitter.com/clmich">Claudio Michaelis</a></p>
-          <p>My research goal is to develop deep RL algorithms that can be adapted efficiently in different environments
-            and applied in a variety of domains. To reach this goal, I focus on self-supervised RL in both online and
-            offline settings. I am also interested in probabilistic inference and representation learning for control.
+              href="https://twitter.com/clmich">Claudio Michaelis</a> and supervised by <a href="https://scholar.google.com/citations?user=v-JL-hsAAAAJ&hl=en/">Wieland Brendel</a> and <a href="https://scholar.google.com/citations?user=b-JF-UIAAAAJ&hl=en">georg martius</a>. I obtained my BSc in mechanical engineering at the <a href="https://www.uofk.edu/index.php/ar/">University of Khartoum</a></p>
+          <p>My research goal is to develop AI systems that can efficiently, adaptively, and safely assist humans in learning and achieving their goals. 
+            I am particularly interested in how AI systems can understand and infer human goals and intentions, adapt their behavior to individual users and contexts, 
+            and continually improve through interaction. To pursue this goal, I study assistive AI from three complementary perspectives: theoretical 
+            frameworks for human-AI assistance and shared agency, models for human goal and intention inference, and learning algorithms for adaptive and personalized AI agents. 
+            My research draws on reinforcement learning, human-AI interaction, probabilistic inference, continual learning, and agentic AI.
           </p>
           <div class="row">
-            <div class="col-md-5">
-              <h3>Interests</h3>
-              <ul class="ul-interests">
-                <li>Deep Reinforcement Learning</li>
-                <li>Representation Learning</li>
-                <li>Probablisitc Inference</li>
-              </ul>
-            </div>
             <div class="col-md-7">
               <h3>Experience</h3>
               <ul class="ul-edu fa-ul">
@@ -264,21 +258,49 @@
             <a class="pub-title" href="https://arxiv.org/abs/2510.14176">ARM-FM: Automated Reward Machines via Foundation Models for Compositional Reinforcement Learning</a>
             <div class="pub-venue">In International Conference on Learning Representations (ICLR), 2026</div>
             <div class="pub-authors">Roger Creus Castanyer, Faisal Mohamed, Pablo Samuel Castro, Cyrus Neary, Glen Berseth</div>
+            <button type="button" class="pub-abstract-toggle" aria-expanded="false" aria-controls="pub-abstract-1">
+              <span class="pub-abstract-label">Abstract</span>
+              <i class="fas fa-chevron-down pub-abstract-chevron" aria-hidden="true"></i>
+            </button>
+            <div class="pub-abstract" id="pub-abstract-1" hidden>
+              <p>Reinforcement learning (RL) algorithms are highly sensitive to reward function specification, which remains a central challenge limiting their broad applicability. We present ARM-FM: Automated Reward Machines via Foundation Models, a framework for automated, compositional reward design in RL that leverages the high-level reasoning capabilities of foundation models (FMs). Reward machines (RMs) – an automata-based formalism for reward specification – are used as the mechanism for RL objective specification, and are automatically constructed via the use of FMs. The structured formalism of RMs yields effective task decompositions, while the use of FMs enables objective specifications in natural language. Concretely, we (i) use FMs to automatically generate RMs from natural language specifications; (ii) associate language embeddings with each RM automata-state to enable generalization across tasks; and (iii) provide empirical evidence of ARM-FM's effectiveness in a diverse suite of challenging environments, including evidence of zero-shot generalization.</p>
+            </div>
           </div>
           <div class="view-list-item pub-entry">
             <a class="pub-title" href="https://arxiv.org/abs/2603.02008">Temporal representations for exploration: Learning complex exploratory behavior without extrinsic rewards</a>
             <div class="pub-venue">In International Conference on Learning Representations (ICLR), 2026</div>
             <div class="pub-authors">Faisal Mohamed, Cathrine Ji, Benjamin Eysenbach, Glen Berseth</div>
+            <button type="button" class="pub-abstract-toggle" aria-expanded="false" aria-controls="pub-abstract-2">
+              <span class="pub-abstract-label">Abstract</span>
+              <i class="fas fa-chevron-down pub-abstract-chevron" aria-hidden="true"></i>
+            </button>
+            <div class="pub-abstract" id="pub-abstract-2" hidden>
+              <p>Effective exploration in reinforcement learning requires not only tracking where an agent has been, but also understanding how the agent perceives and represents the world. To learn powerful representations, an agent should actively explore states that contribute to its knowledge of the environment. Temporal representations can capture the information necessary to solve a wide range of potential tasks while avoiding the computational cost associated with full state reconstruction. In this paper, we propose an exploration method that leverages temporal contrastive representations to guide exploration, prioritizing states with unpredictable future outcomes. We demonstrate that such representations can enable the learning of complex exploratory behavior in locomotion, manipulation, and embodied-AI tasks, revealing capabilities and behaviors that traditionally require extrinsic rewards. Unlike approaches that rely on explicit distance learning or episodic memory mechanisms (e.g., quasimetric-based methods), our method builds directly on temporal similarities, yielding a simpler yet effective strategy for exploration.</p>
+            </div>
           </div>
           <div class="view-list-item pub-entry">
             <a class="pub-title" href="https://sites.google.com/view/surprise-adaptive-agents?usp=sharing">Surprise-Adaptive Intrinsic Motivation for Unsupervised Reinforcement Learning</a>
             <div class="pub-venue">RLC 2024</div>
             <div class="pub-authors">Adriana Hugessen*, Roger Creus Castanyer*, Faisal Mohamed*, Glen Berseth</div>
+            <button type="button" class="pub-abstract-toggle" aria-expanded="false" aria-controls="pub-abstract-3">
+              <span class="pub-abstract-label">Abstract</span>
+              <i class="fas fa-chevron-down pub-abstract-chevron" aria-hidden="true"></i>
+            </button>
+            <div class="pub-abstract" id="pub-abstract-3" hidden>
+              <p>Both entropy-minimizing and entropy-maximizing (curiosity) objectives for unsupervised reinforcement learning (RL) have been shown to be effective in different environments, depending on the environment's level of natural entropy. However, neither method alone results in an agent that will consistently learn intelligent behavior across environments. In an effort to find a single entropy-based method that will encourage emergent behaviors in any environment, we propose an agent that can adapt its objective online, depending on the entropy conditions by framing the choice as a multi-armed bandit problem. We devise a novel intrinsic feedback signal for the bandit, which captures the agent's ability to control the entropy in its environment. We demonstrate that such agents can learn to control entropy and exhibit emergent behaviors in both high- and low-entropy regimes and can learn skillful behaviours across MinAtar tasks.</p>
+            </div>
           </div>
           <div class="view-list-item pub-entry">
             <a class="pub-title" href="https://openreview.net/forum?id=H_-lBQvWL-5">An Empirical Investigation of Mutual Information Skill Learning</a>
             <div class="pub-venue">ALOE Workshop, ICLR 2022</div>
             <div class="pub-authors">Faisal Mohamed, Benjamin Eysenbach, Russ Salakhutdinov</div>
+            <button type="button" class="pub-abstract-toggle" aria-expanded="false" aria-controls="pub-abstract-4">
+              <span class="pub-abstract-label">Abstract</span>
+              <i class="fas fa-chevron-down pub-abstract-chevron" aria-hidden="true"></i>
+            </button>
+            <div class="pub-abstract" id="pub-abstract-4" hidden>
+              <p>Unsupervised skill learning methods are a form of unsupervised pre-training for reinforcement learning (RL) that has the potential to improve the sample efficiency of solving downstream tasks. Prior work has proposed several methods for unsupervised skill discovery based on mutual information (MI) objectives, with different methods varying in how this mutual information is estimated and optimized. This paper studies how different design decisions in skill learning algorithms affect the sample efficiency of solving downstream tasks. Our key findings are that the sample efficiency of downstream adaptation under off-policy backbones is better than their on-policy counterparts. In contrast, on-policy backbones result in better state coverage, moreover, regularizing the discriminator gives better downstream results, and careful choice of the mutual information lower bound and the discriminator architecture yields significant improvements in downstream returns, also, we show empirically that the learned representations during the pre-training step correspond to the controllable aspects of the environment.</p>
+            </div>
           </div>
         </div>
       </div>

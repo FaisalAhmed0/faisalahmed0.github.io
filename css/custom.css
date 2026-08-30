@@ -293,9 +293,58 @@ ul.ul-edu li .description p.institution {
   margin-top: 0.25rem;
 }
 
+.pub-abstract-toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  margin-top: 0.35rem;
+  padding: 0;
+  border: none;
+  background: none;
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: var(--primary);
+  cursor: pointer;
+  transition: color 0.15s ease;
+}
+
+.pub-abstract-toggle:hover {
+  color: var(--primary-dark);
+}
+
+.pub-abstract-chevron {
+  font-size: 0.7rem;
+  transition: transform 0.2s ease;
+}
+
+.pub-abstract-toggle[aria-expanded="true"] .pub-abstract-chevron {
+  transform: rotate(180deg);
+}
+
+.pub-abstract {
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+  line-height: 1.65;
+  color: var(--text-primary);
+}
+
+.pub-abstract p {
+  margin-bottom: 0;
+}
+
 /* --------------------------------------------------------------------------
    Blog
    -------------------------------------------------------------------------- */
+
+.blog-intro {
+  margin-bottom: 2rem;
+  color: var(--text-muted);
+  line-height: 1.7;
+}
+
+.blog-intro p:last-child {
+  margin-bottom: 0;
+}
 
 .blog-list-item {
   margin-bottom: 1.5rem;
@@ -325,6 +374,37 @@ ul.ul-edu li .description p.institution {
 .blog-excerpt {
   margin-top: 0.4rem;
   color: var(--text-muted);
+}
+
+/* RTL article content */
+.article-style[dir="rtl"] {
+  text-align: right;
+}
+
+.article-style[dir="rtl"] ul,
+.article-style[dir="rtl"] ol {
+  padding-right: 1.5rem;
+  padding-left: 0;
+}
+
+/* Code stays LTR inside RTL posts */
+.article-style[dir="rtl"] pre,
+.article-style[dir="rtl"] code,
+.article-style[dir="rtl"] .codehilite {
+  direction: ltr;
+  text-align: left;
+}
+
+/* RTL on blog listing items and intro */
+.blog-list-item[dir="rtl"],
+.blog-intro[dir="rtl"] {
+  text-align: right;
+}
+
+.article-style[lang="ar"],
+.blog-list-item[lang="ar"],
+.blog-intro[lang="ar"] {
+  font-family: "Noto Sans Arabic", Inter, sans-serif;
 }
 
 .article-footer-nav {

@@ -1,0 +1,1 @@
+Welcome to my blog, I recently added this section, I will post some notes or thoughts that might be useful for other people, depending on the topic I will write the blog in either Arabic or English. 

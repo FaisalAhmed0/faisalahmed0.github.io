@@ -31,9 +31,31 @@
     return document.body.classList.contains('dark');
   }
 
+  function initializeAbstractToggles() {
+    document.querySelectorAll('.pub-abstract-toggle').forEach(function (toggle) {
+      var panelId = toggle.getAttribute('aria-controls');
+      var panel = panelId ? document.getElementById(panelId) : null;
+      var label = toggle.querySelector('.pub-abstract-label');
+      if (!panel) {
+        return;
+      }
+
+      toggle.addEventListener('click', function () {
+        var isExpanded = toggle.getAttribute('aria-expanded') === 'true';
+        toggle.setAttribute('aria-expanded', isExpanded ? 'false' : 'true');
+        panel.hidden = isExpanded;
+        if (label) {
+          label.textContent = isExpanded ? 'Abstract' : 'Hide abstract';
+        }
+      });
+    });
+  }
+
   function initialize() {
     var preference = storedPreference();
     setTheme(preference === null ? mediaQuery.matches : preference);
+
+    initializeAbstractToggles();
 
     document.querySelectorAll('.js-dark-toggle').forEach(function (toggle) {
       toggle.setAttribute('aria-label', 'Toggle dark mode');
